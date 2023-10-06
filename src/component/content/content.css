@@ -1,0 +1,100 @@
+.content{
+    
+}
+.logoimg{
+    margin: 20px 0px 20px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group2 {
+    flex: 1;
+    height: 210px;
+    background: #EFEFEF;
+    margin: 0 10%;
+  }
+img{
+    object-fit: contain;
+}
+.name{
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+.info{
+    margin-top: 10px;
+    text-align: center;
+    text-wrap: balance;
+    margin: 0 10%;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+@media (max-width: 1340px) {
+    .info {
+      /* Thêm hoặc loại bỏ các thuộc tính CSS tùy theo nhu cầu */
+      max-width: none; /* Loại bỏ giới hạn chiều rộng */
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+.group{
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+}
+.box{
+    flex: 1;
+}
+.inner{
+    display: flex;
+}
+.texttitle{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-wrap: balance;
+    word-wrap: break-word;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    
+}
+.texttitle2{
+    text-wrap: balance;
+}
+
+.textmain{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+@media (max-width: 1340px) {
+
+    .texttitle{
+      /* Loại bỏ giới hạn chiều rộng */
+      max-width: none; /* Loại bỏ giới hạn chiều rộng */
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .texttitle2{
+        display: none;
+    }
+  }
