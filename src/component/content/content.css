@@ -1,5 +1,5 @@
 .content{
-    
+    width: auto;
 }
 .logoimg{
     margin: 20px 0px 20px 0px ;
@@ -37,13 +37,16 @@ img{
     line-height: 19px;
     letter-spacing: 0em;
 }
-@media (max-width: 1340px) {
+@media (max-width: 1100px) {
     .info {
-      /* Thêm hoặc loại bỏ các thuộc tính CSS tùy theo nhu cầu */
-      max-width: none; /* Loại bỏ giới hạn chiều rộng */
       overflow: hidden;
       text-overflow: ellipsis;
-      white-space: nowrap;
+      white-space: nowrap; 
+      margin: 0 10%;
+      text-wrap: balance;
+    }
+    .group2{
+        height: 300px;
     }
   }
 
@@ -51,29 +54,13 @@ img{
     display: flex;
     margin: 0 10%;
     justify-content: space-between;
+    flex-direction: row;
 }
 .box{
     flex: 1;
 }
-.inner{
-    display: flex;
-}
-.texttitle{
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    text-wrap: balance;
-    word-wrap: break-word;
-    /* overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; */
-    
-}
-.texttitle2{
-    text-wrap: balance;
+.imgfloat{
+    float: left;
 }
 
 .textmain{
@@ -85,16 +72,23 @@ img{
     text-align: left;
 
 }
-@media (max-width: 1340px) {
-
-    .texttitle{
-      /* Loại bỏ giới hạn chiều rộng */
-      max-width: none; /* Loại bỏ giới hạn chiều rộng */
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-    .texttitle2{
-        display: none;
-    }
+.textellipsis {
+    
   }
+  
+@media screen and (max-width: 1100px) {
+    .textellipsis {
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .textmain {
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+  }
+
+  

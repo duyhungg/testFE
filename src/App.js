@@ -11,7 +11,9 @@ function App() {
       </div>
       <div className="Content">
         <Content />
-        <Footer />
+        <div className="Footer">
+          <Footer />
+        </div>
       </div>
     </div>
   );

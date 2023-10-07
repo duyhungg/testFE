@@ -27,61 +27,64 @@ const content = () => {
       </div>
       <div className="group">
         <div className="box">
-          <h1 className="textmain">Lorem ipsum dolor sit amet</h1>
-          <div className="inner">
-            <img src={url1} alt="1" />
-            <span className="texttitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-              dui sodales, faucibus libero ut, posuere felis. Donec imperdiet
-              suscipit accumsan. Aenean consequat condimentum velit ut tempor.
-              Nam porta massa in metus bibendum congue. Pellentesque ultrices
-              liquam egestas nunc at{" "}
-            </span>
-          </div>
-          <span className="texttitle2">
-            ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est
-            ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam
-            porta massa in metus bibendum congue. Pellentesque ultrices
-            vestibulum mattis.
-          </span>
+          <p className="textmain">Lorem ipsum dolor sit amet</p>
+          <p>
+            <img src={url1} alt="url1" className="imgfloat" />
+            <p className="textellipsis">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              imperdiet, nulla et dictum interdum, nisi lorem egestas odio,
+              vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est,
+              ultrices nec congue eget, auctor vitae massa. Fusce luctus
+              vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed
+              ornare eu, lobortis in odio. Praesent convallis urna a lacus
+              interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed
+              ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+              imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+              venenatis. Integer fringilla congue eros non fermentum. Sed
+              dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis
+              diam velit.
+            </p>
+          </p>
         </div>
         <div className="box">
           <h1 className="textmain">Lorem ipsum dolor sit amet</h1>
-          <div className="inner">
-            <img src={url2} alt="1" />
-            <span className="texttitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-              dui sodales, faucibus libero ut, posuere felis. Donec imperdiet
-              suscipit accumsan. Aenean consequat condimentum velit ut tempor.
-              Nam porta massa in metus bibendum congue. Pellentesque ultrices
-              liquam egestas nunc at{" "}
-            </span>
-          </div>
-          <span className="texttitle2">
-            ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est
-            ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam
-            porta massa in metus bibendum congue. Pellentesque ultrices
-            vestibulum mattis.
-          </span>
+          <p>
+            <img src={url2} alt="url2" className="imgfloat" />
+            <p className="textellipsis">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              imperdiet, nulla et dictum interdum, nisi lorem egestas odio,
+              vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est,
+              ultrices nec congue eget, auctor vitae massa. Fusce luctus
+              vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed
+              ornare eu, lobortis in odio. Praesent convallis urna a lacus
+              interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed
+              ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+              imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+              venenatis. Integer fringilla congue eros non fermentum. Sed
+              dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis
+              diam velit.
+            </p>
+          </p>
         </div>
         <div className="box">
           <h1 className="textmain">Lorem ipsum dolor sit amet</h1>
-          <div className="inner">
-            <img src={url3} alt="1" />
-            <span className="texttitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-              dui sodales, faucibus libero ut, posuere felis. Donec imperdiet
-              suscipit accumsan. Aenean consequat condimentum velit ut tempor.
-              Nam porta massa in metus bibendum congue. Pellentesque ultrices
-              liquam egestas nunc at{" "}
-            </span>
-          </div>
-          <span className="texttitle2">
-            ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est
-            ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam
-            porta massa in metus bibendum congue. Pellentesque ultrices
-            vestibulum mattis.
-          </span>
+          <p>
+            <img src={url3} alt="url3" className="imgfloat" />
+            <p className="textellipsis">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              imperdiet, nulla et dictum interdum, nisi lorem egestas odio,
+              vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est,
+              ultrices nec congue eget, auctor vitae massa. Fusce luctus
+              vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed
+              ornare eu, lobortis in odio. Praesent convallis urna a lacus
+              interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed
+              ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+              imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+              venenatis. Integer fringilla congue eros non fermentum. Sed
+              dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis
+              diam velit.
+            </p>
+          </p>
         </div>
       </div>
     </div>

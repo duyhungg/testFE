@@ -4,6 +4,8 @@
 }
 .App {
   display: flex; 
+  position: relative;
+  overflow: hidden;
 }
 
 .Sidebar {
@@ -14,5 +16,13 @@
 }
 
 .Content {
-  width: 100%; 
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+
+  .Sidebar{
+      width: 100px;
+  }
+
 }
